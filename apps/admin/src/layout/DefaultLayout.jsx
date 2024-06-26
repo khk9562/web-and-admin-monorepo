@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  AppContent,
-  AppSidebar,
-  AppFooter,
-  AppHeader,
-} from "../components/index";
+import { AppContent, AppSidebar, AppHeader } from "../components/index";
 import { Routes, Route } from "react-router-dom";
 import Main from "../views/pages/main/Main";
 import Home from "../views/pages/home/Home";
@@ -25,7 +20,6 @@ const DefaultLayout = () => {
           {/* <AppContent /> */}
           {/* 페이지 */}
         </div>
-        <AppFooter />
       </div>
     </div>
   );
