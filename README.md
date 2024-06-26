@@ -16,7 +16,9 @@ npm run dev --workspace=admin
 - Javascript (NO Typescript TT)
 - Turbo
 - Bootstrap
-- Zustand
+- react-bootstrap
+- SCSS
+- Redux
 
 ### admin
 
