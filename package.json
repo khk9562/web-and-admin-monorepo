@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-test-turbo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "author": "stella",
+  "devDependencies": {
+    "turbo": "^2.0.5"
+  }
+}
