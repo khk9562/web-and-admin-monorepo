@@ -5,10 +5,7 @@ import {
   CCloseButton,
   CSidebar,
   CSidebarBrand,
-  CSidebarFooter,
   CSidebarHeader,
-  CSidebarToggler,
-  CLink,
 } from "@coreui/react";
 
 import { AppSidebarNav } from "./AppSidebarNav";
@@ -37,7 +34,7 @@ const AppSidebar = () => {
           to="/home"
           style={{ textDecoration: "none", cursor: "pointer", color: "" }}
         >
-          <h1>Admin</h1>
+          <h1>관리자TT</h1>
 
           {/* <CIcon customClassName="sidebar-brand-full" icon={logo} height={32} />
           <CIcon customClassName="sidebar-brand-narrow" icon={sygnet} height={32} /> */}
@@ -49,11 +46,6 @@ const AppSidebar = () => {
         />
       </CSidebarHeader>
       <AppSidebarNav items={navigation} />
-      {/* <CSidebarFooter className="border-top d-none d-lg-flex">
-        <CSidebarToggler
-          onClick={() => dispatch({ type: 'set', sidebarUnfoldable: !unfoldable })}
-        />
-      </CSidebarFooter> */}
     </CSidebar>
   );
 };
