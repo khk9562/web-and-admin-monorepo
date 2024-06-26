@@ -5,6 +5,9 @@ import {
   AppFooter,
   AppHeader,
 } from "../components/index";
+import { Routes, Route } from "react-router-dom";
+import Main from "../views/pages/main/Main";
+import Home from "../views/pages/home/Home";
 
 const DefaultLayout = () => {
   return (
@@ -14,9 +17,10 @@ const DefaultLayout = () => {
         <AppHeader />
         <div className="body flex-grow-1">
           <AppContent>
-            <main>
-              <h1>Admin Home</h1>
-            </main>
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/home" element={<Home />} />
+            </Routes>
           </AppContent>
           {/* <AppContent /> */}
           {/* 페이지 */}

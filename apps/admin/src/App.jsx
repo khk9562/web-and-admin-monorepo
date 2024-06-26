@@ -13,7 +13,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { CSpinner, useColorModes } from "@coreui/react";
 import "./scss/style.scss";
-import Home from "./views/home/Home";
+import Home from "./views/pages/home/Home";
 // Containers
 const DefaultLayout = React.lazy(() => import("./layout/DefaultLayout"));
 
